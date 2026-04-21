@@ -15,4 +15,11 @@ def compare():
         Para las entradas "7" y "7", la salida esperada es:
         7 es igual a 7
     """
-    pass
+    n_1=int(input())
+    n_2=int(input())
+    if n_1 > n_2:
+        print(f"{n_1} es mayor que {n_2}")
+    elif n_1 < n_2:
+        print(f"{n_1} es menor que {n_2}")
+    elif n_1 == n_2:
+        print(f"{n_1} es igual a {n_2}")
