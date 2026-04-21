@@ -22,4 +22,20 @@ def calculator():
         Para las entradas "10", "5" y "x", la salida esperada es:
         Operacion invalida
     """
-    pass
+    num_1 = float(input())
+    num_2 = float(input())
+    operacion = input()
+    if operacion == "+":
+        resultado = f"Resultado: {num_1 + num_2}"
+    elif operacion == "-":
+        resultado = f"Resultado: {num_1 - num_2}"
+    elif operacion == "*":
+        resultado = f"Resultado: {num_1 * num_2}"
+    elif operacion == "/":
+        if num_2!=0:
+            resultado= f"Resultado: {num_1 / num_2}"
+        if num_2==0:
+            resultado ="Error: division por cero"
+    else:
+        resultado="Operacion invalida"
+    print(resultado)
