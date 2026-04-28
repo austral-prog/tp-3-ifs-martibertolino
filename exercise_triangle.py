@@ -21,4 +21,4 @@ def triangle():
     if lado_a + lado_b > lado_c and lado_a + lado_c > lado_b and lado_b + lado_c > lado_a:
         print("Los lados forman un triangulo valido")
     else:
-        print("Los lados no forman un triangulo  valido")
+        print("Los lados no forman un triangulo valido")
