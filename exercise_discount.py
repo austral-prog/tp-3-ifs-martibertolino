@@ -24,8 +24,8 @@ def discount():
         Monto de descuento: 240.0
         Total final: 960.0
     """
-    precio = float(input("Ingrese el precio del producto: "))
-    cant = int(input("Ingrese la cantidad: "))
+    precio = float(input())
+    cant = int(input())
     subtotal = precio * cant
 
     if cant >= 10:
